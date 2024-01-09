@@ -63,7 +63,7 @@ $words1 = [
     'elemento2' => 'nostra', 
     'elemento3' => [ 
                       'Virgilio', 
-                      'smarrita', 
+                      "smarrita\n", 
                       'ché' 
                     ] 
   ];
@@ -83,3 +83,17 @@ $result = $words1[6][3][1][1] . " " . $words1[6][3][0] . " " . $words3[1] . " " 
   . " " . $words1[7] . " " . $words1[6][3][1][2][2][0] . " "  . $words1[6][1] . " " . $words2['elemento3'][1];
 
 echo $result;
+
+
+$x = 50;
+$y = 20;
+$z = "10";
+$w= 30;
+
+var_dump($x<$y);
+var_dump($x<=$w);
+var_dump($y==$z);
+var_dump($y===$z);
+var_dump($y!==$z);
+var_dump($y!=$z);
+
